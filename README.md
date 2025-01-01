@@ -1,9 +1,9 @@
 ## Features
 - **Chess Board Representation**: Implements a simple yet effective chess board representation for easy move generation and piece tracking.
 - **Move Generation**: Supports legal move generation for all chess pieces (Pawns, Knights, Bishops, Rooks, Queens, and Kings).
-- **Simple AI**: The engine uses basic search algorithms (like Minimax) to evaluate the best move in a given position.
+- **Simple AI**: The engine uses search algorithms MiniMax, Alpha Beta Pruning and Monte Carlo Tree Search to evaluate the best move in a given position.
 - **Board Evaluation**: Implements a basic evaluation function to assess the quality of a board position based on material count and piece activity.
-- **User Interaction**: Allows users to play against the AI, with a text-based interface where players input moves in standard algebraic notation.
+- **User Interaction**: Allows users to play against the AI, with a GUI.
 - **Game Rules Implementation**: Includes standard chess rules, such as castling, en passant, and pawn promotion.
 - **Customizable Difficulty**: The AI's depth of search can be adjusted to change its difficulty level.
 - **Endgame Detection**: Identifies checkmate, stalemate, and draw conditions, ending the game appropriately.
